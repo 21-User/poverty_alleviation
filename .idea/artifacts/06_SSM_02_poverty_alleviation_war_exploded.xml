@@ -1,0 +1,50 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="06-SSM-02-poverty_alleviation:war exploded">
+    <output-path>$PROJECT_DIR$/target/06-SSM-02-poverty_alleviation-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>06-SSM-02-poverty_alleviation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="06-SSM-02-poverty_alleviation" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.22" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.12.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.6" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.8" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.6" />
+          <element id="library" level="project" name="Maven: org.mybatis.generator:mybatis-generator-core:1.4.0" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.3.2" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:2.0.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.3.6" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.2.8" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.49" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.17.2" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.17.2" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.2.0" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:3.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/06-SSM-02-poverty_alleviation-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="06-SSM-02-poverty_alleviation/web/Web" />
+    </root>
+  </artifact>
+</component>
