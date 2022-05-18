@@ -1,13 +1,10 @@
 package com.fc.controller;
 
-import com.fc.dto.UserResponseDto;
 import com.fc.entity.User;
 import com.fc.service.UserService;
 import com.fc.vo.ResultVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Map;
 
 @RestController
 @RequestMapping("user")
@@ -15,6 +12,12 @@ import java.util.Map;
 public class UserController {
     @Autowired
     private UserService userService;
+
+    @PostMapping("login")
+    public ResultVo login(@RequestParam String username,
+                          @RequestParam String password) {
+        return userService.login(username, password);
+    }
 
     @PostMapping("add")
     public ResultVo add(@RequestBody User user) {
